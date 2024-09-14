@@ -2,41 +2,45 @@
     "intents": [
         {
             "tag": "greeting",
-            "patterns": [
-                "Hi","Hey","How are you","Is anyone there?","Hello","Good day","Namaste","What's up","Hey there","Hi there"
-            ],
-            "responses": [
-                "Hello, thanks for visiting",
+            "patterns": ["Hi","Hey","How are you","Is anyone there?","Hello","Good day","Namaste","What's up","Hey there","Hi there"],
+            "responses": ["Hello, thanks for visiting",
                 "Hello, what can I do for you?",
                 "Hello, how can I help you?",
-                "Hi there! what can I do for you?"
-            ]
+                "Hi there! what can I do for you?"]
         },
 
         {
             "tag": "goodbye",
-            "patterns": [
-                "Bye","See you later","Good bye", "Have a nice day ahead"
-            ],
-            "responses": [
-                "See you later, thanks for visiting",
+            "patterns": ["Bye","See you later","Good bye", "Have a nice day ahead"],
+            "responses": ["See you later, thanks for visiting",
                 "Have a nice day",
-                "Bye! Come back again soon."
-            ]
+                "Bye! Come back again soon."]
         },
 
         {
-            "tag": "goodbye",
-            "patterns": [
-                "Bye","See you later","Good bye", "Have a nice day ahead"
-            ],
-            "responses": [
-                "See you later, thanks for visiting",
-                "Have a nice day",
-                "Bye! Come back again soon."
-            ]
+            "tag": "funny",
+            "patterns": ["Tell me something funny","Tell me a joke","Do you know any jokes?", "Can you make me laugh?"],
+            "responses": ["You have two parts of the brain, “left” and “right”. On the left side, there’s nothing right and on the right side, there’s nothing left.",
+                "I’m skeptical of anyone who tells me they do yoga every day. That’s a bit of a stretch.",
+                "A perfectionist walked into a bar — apparently, the bar wasn’t set high enough.",
+                "Thanks for explaining the word “many” to me, it means a lot.",
+                "Don’t spell part backward. It’s a trap."]
         },
- 
+        
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+
+                {
+            "tag": "Quote of the day",
+            "patterns": ["Bye","See you later","Good bye", "Have a nice day ahead"],
+            "responses": ["See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."]
+        },
+        
     ]
 
 }
